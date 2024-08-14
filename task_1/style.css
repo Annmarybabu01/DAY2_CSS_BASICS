@@ -1,0 +1,25 @@
+pre {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutEvent {
+    margin: 20px;
+    line-height:0.8;
+}
+.personalInfo {
+    margin: 20px;
+    line-height:0.8;
+}
+.pMethod {
+    margin: 20px;
+    line-height:0.8;
+}
+.declaration {
+    margin: 20px;
+    line-height:0.8;
+}
+input[type=text]{
+    border-radius:50px;
+    width:250px;
+    height:25px;
+    background-color:hsl(0, 79%, 96%);
+}

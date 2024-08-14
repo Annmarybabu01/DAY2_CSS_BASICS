@@ -1,0 +1,16 @@
+.gradientBackground {
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(to bottom, white, #f1a0a0); /* Gradient from top to bottom */
+}
+#mainHeading {
+    color:black;
+    font-family:"Arial";
+    
+
+}
+.fa-lightbulb {
+    height:150px;
+    width:150px;
+}
+
+

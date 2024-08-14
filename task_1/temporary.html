@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RegisterationForm</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="border: 2px solid black;border-radius:25px;">
+        <div class="aboutEvent">
+        <h2><b>About This Event</b></h2>
+        <pre>Event Name            :Social Media Creator</pre>
+        <pre>Date                        : August 29, 2023</pre>
+        <pre>Time                        : 1:00 PM - 3:00 PM</pre>
+        <pre>Speaker                   :Michele Erica (Social Media Speaker)</pre>
+        <pre>Organizer                : Creative Event</pre>
+        <pre>More information  : www.creativeevent.com</pre>
+        <br>
+        <img src="/images/speaker.jpg" alt="Image of Michelle Erica" style="width:150px;height:150px;border-radius: 50%;" > 
+        <hr>
+        </div>
+        <div class="personalInfo">
+            <h2><b>Personal Information</b></h2>
+            <form>
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" size="50px"><br>
+                <label for="dob">Date of Birth</label><br>
+                <input type="text" id="dob" name="dob"><br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="fale";">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="pnumber">Phone Number</label><br>
+                <input type="text" id="pnumber" name="pnumber" size="50px"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="media">Where did you hear about this virtual event?</label><br>
+                <input type="radio" id="facebook" name="media" value="facabook">
+                <label for="facebook">Facebook</label>
+                <input type="radio" id="youtube" name="media" value="youtube">
+                <label for="youtube">Youtube</label>
+                <input type="radio" id="instagram" name="media" value="instagram">
+                <label for="instagram">Instagram</label>
+                <input type="radio" id="Twitter" name="media" value="twitter">
+                <label for="twitter">Twitter</label>
+                <input type="radio" id="other" name="media" value="other">
+                <label for="other">Other</label>
+                <br>
+                <hr>
+              </form>
+            </div>
+              <div class="pMethod">
+                <h2><b>Payment Method</b></h2>
+                <form>
+                    <label for="nticket">Number of Tickets</label><br>
+                    <input type="text" id="nticket" name="nticket" size="30px"><br>
+                    <label for="pmethod">Payment Method : </label><br>
+                    <input type="radio" id="creditcard" name="pmethod" value="facabook">
+                    <label for="creditcard">Creditcard</label>
+                    <input type="radio" id="debitcard" name="pmethod" value="debitcard">
+                    <label for="dcard">Debit Card</label>
+                    <input type="radio" id="cash" name="pmethod" value="cash">
+                    <label for="cash">Cash</label>
+                    <input type="radio" id="check" name="pmethod" value="check">
+                    <label for="check">Check</label>
+                    <br>
+                    <hr>
+                  </form>
+        </div>
+        <div class="declaration">
+            <p>I understand that participation in this event may invlove<br>
+            some degree of risk. I release WebinarPros LLC from any<br>
+        liability for injury, loss, or damage to personal property.</p>
+        </div>
+    </body>
+</html>
